@@ -1,12 +1,12 @@
-var numSquares = 6;
-var colors = [];
-var pickedColor;
-var squares = document.querySelectorAll(".square");
-var colorDisplay = document.querySelector("#colorDisplay");
-var messageDisplay = document.querySelector("#message");
-var h1 = document.querySelector("h1");
-var resetButton = document.querySelector("#reset");
-var modeButtons = document.querySelectorAll(".mode");
+var numSquares = 6,
+    colors = [],
+    pickedColor,
+    squares = document.querySelectorAll(".square"),
+    colorDisplay = document.querySelector("#colorDisplay"),
+    messageDisplay = document.querySelector("#message"),
+    h1 = document.querySelector("h1"),
+    resetButton = document.querySelector("#reset"),
+    modeButtons = document.querySelectorAll(".mode");
 
 init();
 
